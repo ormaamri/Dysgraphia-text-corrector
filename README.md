@@ -35,14 +35,14 @@ A Streamlit web application that detects dysgraphic handwriting, extracts the ha
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/ormaamri/Dysgraphia-text-corrector
 cd your-repository
 ```
 
 Install the required packages:
 
 ```bash
-pip install -r requirements.txt
+pip install streamlit ultralytics easyocr google-generativeai opencv-python numpy pillow
 ```
 
 ## Required Files
@@ -70,7 +70,6 @@ streamlit run app.py
 ```
 ├── app.py
 ├── YOLO.keras
-├── requirements.txt
 └── README.md
 ```
 
